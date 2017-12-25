@@ -1,0 +1,130 @@
+.page-nav__block {
+	display: none;
+}
+.page-nav {
+	background: #FFF;
+}
+.page-nav__block {
+	float: left;
+    display: inline-block;
+}
+.page-nav__list {
+	font-size: 0;
+}
+.page-nav__items {
+	display: inline-block;
+	padding: 16px 20px;
+	font-size: 16px;
+	line-height: 25px;
+	border-right: 1px solid #eeeeee;	
+}
+.page-nav__items:first-child {
+	border-left: 1px solid #eeeeee;
+}
+.page-nav__links {
+	text-decoration: none;
+	color: #242424;
+}
+.page-nav__user-block {
+	float: right;
+}
+.page-nav__user-link {
+	display: inline-block;
+	color: #adadad;
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 25px;
+	padding: 16px 20px;
+	border-right: 1px solid #eeeeee;
+}
+.page-nav__user-link:first-child {
+	border-left: 1px solid #eeeeee;
+}
+.page-nav__user-decor {
+	display: inline-block;
+	margin-left: 7px;
+	padding: 2px 5px;
+	color: #FFF;
+	background: #6E6E6E;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	font-size: 12px;
+	line-height: 12px;
+}
+.page-nav__nav-hamburger,
+.page-nav__close-hamburger  {
+	display: none;
+}
+.page-nav__btn {
+	display: inline-block;
+	margin-left: 2px;
+}
+@media (max-width: 768px) {
+
+.page-nav__nav-hamburger,
+.page-nav__close-hamburger  {
+	display: inline-block;
+	padding: 10px ;
+	padding-bottom: 13px;
+	text-decoration: none;
+	color: #6E6E6E;
+	border: none;		
+}
+.page-nav__nav-hamburger {
+	position: relative;
+	right: 0;
+	top: 2px;
+}
+.page-nav__nav-hamburger:hover,
+.page-nav__close-hamburger:hover  {
+    color: white;
+}
+.page-nav__close-hamburger {
+	display: none;
+	position: relative;
+	right: 0px;
+    top: 3px;
+    font-size: 20px; 
+    padding: 0px 10px;
+
+    padding-bottom: 13px;
+    
+    color: #FFF;
+}
+.page-nav .container {
+	position: relative;
+}
+.page-nav__block {
+	display: none;
+	float: none;
+	margin: 0 auto; 
+	position: absolute;
+	width: 100%;
+	z-index: 20;
+	background: #FFF;
+}
+.page-nav__user-block  {
+	float: none;
+}
+.page-nav__items {
+	display: block;
+	text-align: center;
+	border: none;
+	border-bottom: 1px solid #eeeeee;
+}
+.page-nav__items:hover {
+	background: #57c5a0;
+}
+.page-nav__links:hover {
+	color: #FFF;
+}
+.page-nav__items:first-child {
+	border-top: 1px solid #eeeeee;
+}
+.page-nav__show-btn {
+	display: inline-block;
+}
+.page-nav__close-btn {
+	display: none;
+}
+}

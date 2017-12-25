@@ -1,0 +1,51 @@
+.propositions {
+	background: #242424;
+	padding: 26px 0;
+	margin-top: -1px;
+}
+.propositions__items-block {
+	display: flex;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.propositions__item {
+	width: 260px;
+	height: 60px;
+	padding: 60px;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+.propositions__item--1 {
+	background: url("../img/shoes1.jpg");
+}
+.propositions__item--2 {
+	background: url("../img/shoes2.jpg");
+	margin: 0 20px;
+}
+.propositions__item--3 {
+	background: url("../img/shoes3.jpg");
+}
+.proposition__title {
+	margin: 0;
+	padding: 20px 40px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #FFF;
+	font-size: 21px;
+}
+@media (max-width: 1200px) {
+	.proposition__title {
+		font-size: 18px;
+	}
+}
+@media (max-width: 768px) {
+	.propositions__items-block {
+		display: block;
+		text-align: center;
+	}
+	.propositions__item {
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+}
